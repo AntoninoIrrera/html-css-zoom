@@ -20,20 +20,47 @@ header{
 }
 
 main{
-
-    height: 90vh;
+    width: 100vw;
     background-color: black;
+}
+
+.conteiner{
+    height: 90vh;
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+div{
+    display: flex;
+    height:calc(100% / 5);
+    width: 100%;
+    justify-content: space-between;
 }
 
 
 
+img{
+    height: 100%;
+}
 
-
-
-
+p{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #656f7b;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
 
 
 footer{
     height: 10vh;
     background-color: #222222;
+}
+
+article{
+    position: relative;
+    margin: 0.5rem;
 }
