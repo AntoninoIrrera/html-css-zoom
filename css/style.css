@@ -3,3 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.bottoni-up{
+    color: white;
+    background-color: grey;
+    padding: .5rem;
+    text-decoration: none;
+    border-radius: 25px;
+    
+}
+
+main{
+
+    height: 90vh;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    height: 10vh;
+    background-color: #222222;
+}
