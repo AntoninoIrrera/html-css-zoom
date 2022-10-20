@@ -31,7 +31,7 @@ main{
     padding: 3rem 0;
 }
 
-div{
+.flex{
     display: flex;
     height:calc(100% / 5);
     width: 100%;
@@ -55,12 +55,74 @@ p{
 }
 
 
-footer{
-    height: 10vh;
-    background-color: #222222;
-}
 
 article{
     position: relative;
     margin: 0.5rem;
+}
+
+footer{
+    height: 10vh;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.footer{
+    width:calc(100% / 3);
+}
+
+.footer-sx{
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.lato-sx{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.fa-caret-up{
+    margin-left: 1rem;
+}
+
+div{
+    text-align: center;
+    vertical-align: middle;
+}
+
+span{
+    font-size: 1rem;
+}
+
+.footer-dx{
+    height: 100%;
+    text-align: end;
+    
+}
+
+.lato-dx{
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    color: red;
+    background-color: gray;
+    padding-top: 2.5rem;
+    width: calc(100% / 3);
+}
+
+.lato-centro{
+    display: inline-block;
+}
+
+.footer-centro{
+    font-size: 1.5rem;
+}
+
+.fa-share-from-square{
+    color: green;
 }
