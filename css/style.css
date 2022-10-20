@@ -73,14 +73,24 @@ footer{
 
 
 .footer{
-    width:calc(100% / 3);
+    /* width:calc(100% / 3); */
 }
 
 .footer-sx{
     margin-left: 3rem;
     font-size: 1.5rem;
+    width: 15%;
 }
 
+.footer-centro{
+    width: 70%;
+    text-align: center;
+}
+
+.footer-dx{
+
+    width: 15%;
+}
 .lato-sx{
     display: inline-block;
     margin-left: 2rem;
@@ -117,6 +127,7 @@ span{
 
 .lato-centro{
     display: inline-block;
+    margin-left: 1rem;
 }
 
 .footer-centro{
