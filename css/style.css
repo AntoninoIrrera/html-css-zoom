@@ -8,6 +8,7 @@ header{
     position: absolute;
     right: 1rem;
     top: 1rem;
+    z-index: 2;
 }
 
 .bottoni-up{
@@ -19,13 +20,17 @@ header{
     
 }
 
+body{
+    min-width: 1200px;
+}
+
 main{
-    width: 100vw;
     background-color: black;
+    height: calc(100vh - 93.5px);
+    overflow-y: auto;
 }
 
 .conteiner{
-    height: 90vh;
     width: 90%;
     margin: 0 auto;
     padding: 3rem 0;
@@ -50,7 +55,7 @@ p{
     color: white;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0.3rem;
     background-color: #656f7b;
     padding: 0.5rem;
     font-size: 0.8rem;
@@ -64,19 +69,17 @@ article{
 }
 
 footer{
-    padding: 1.2rem;
     background-color: #222222;
     color: white;
-    height: 100px;
+    height: 93.5px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    min-width: 1000px;
 }
 
-
+.footer{
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -115,19 +118,16 @@ span{
 }
 
 .footer-dx{
-    height: 100%;
-    text-align: end;
-    
+    justify-content: end;    
 }
 
 .lato-dx{
     text-align: center;
-    display: inline-block;
-    height: 100%;
     color: red;
     background-color: gray;
     padding-top: 2.5rem;
-    width: calc(100% / 3);
+    height: 93.5px;
+    width: 6rem;
 }
 
 .lato-centro{
