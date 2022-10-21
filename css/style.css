@@ -74,6 +74,7 @@ footer{
     height: 93.5px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .footer{
@@ -87,17 +88,17 @@ footer{
 .footer-sx{
     margin-left: 3rem;
     font-size: 1.5rem;
-    width: 15%;
+    /* width: 15%; */
 }
 
 .footer-centro{
-    width: 70%;
+    /* width: 70%; */
     text-align: center;
 }
 
 .footer-dx{
 
-    width: 15%;
+    /* width: 15%; */
 }
 .lato-sx{
     display: inline-block;
